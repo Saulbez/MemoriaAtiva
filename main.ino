@@ -35,7 +35,7 @@ void setup() {
   randomSeed(analogRead(0)); 
   
   lcd.begin(16, 2);
-  lcd.print("Simon Game!");
+  lcd.print("Memoria Ativa!");
   delay(2000);
   lcd.clear();
 }
